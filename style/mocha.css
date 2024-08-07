@@ -1,0 +1,20 @@
+body {
+    background: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.mocha-container {
+    width: 65%;
+    height: 65vh;
+    background: white;
+    border-radius: 24px;
+}
+
+#test-header {
+    text-align: center;
+    font-weight: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

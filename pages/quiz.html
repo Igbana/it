@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/quiz.css">
+    <title>Quiz</title>
+</head>
+<body>
+    <div class="topbar">
+        <div class="time-board">Time: <span id="time"></span></div>
+        <h1 id="header">Quiz</h1>
+        <div class="score-board">Score: <span id="score">0</span></div>
+    </div>
+    <div class="row">
+        <div class="content" id="content">
+            <div class="top"><button id="view" onclick="showBackend()">View</button></div>
+            <div class="question-box" id="question-box">What is the sum of 25 and 30?</div>
+            <div class="ans-box">
+                <div class="ans-row">
+                    <button class="ans" id="ans1" onclick="checkAnswer(1)">
+                        Test
+                    </button>
+                    <button class="ans" id="ans2" onclick="checkAnswer(2)">
+                        Test
+                    </button>
+                </div>
+                <div class="ans-row">
+                    <button class="ans" id="ans3" onclick="checkAnswer(3)">
+                        Test
+                    </button>
+                    <button class="ans" id="ans4" onclick="checkAnswer(4)">
+                        Test
+                    </button>
+                    
+                    
+                </div>
+                <!-- <div class="button-container">
+                    <button class="button dir" id="prev">Previous</button>
+                    <button class="button"type="submit" id="submit">Submit</button>
+                    <button class="button dir" id="next" onclick="generateQuestion()">Next</button>
+                </div> -->
+            </div>
+        </div>
+        <div class="backend" id="backend">
+        </div>
+    </div>
+    <script src="/scripts/quiz.js"></script>
+</body>
+</html>

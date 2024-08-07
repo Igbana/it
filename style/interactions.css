@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #eee;
+}
+
+.content {
+    width: 50%;
+    height: 50vh;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#header {
+    text-align: center;
+    display: block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#button {
+    display: inline-block;
+    background: blue;
+    padding: 28px 52px;
+    border-radius: 12px;
+    font-size: 24px;
+    color: white;
+    border: none;
+}

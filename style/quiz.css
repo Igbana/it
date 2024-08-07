@@ -1,0 +1,117 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #ccc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+}
+
+#header{
+    font-size: x-large;
+    font-weight: 600;
+}
+
+#view {
+    float: right;
+    background: rgb(143, 143, 243);
+    color: white;
+    font-weight: 450;
+    border: none;
+    border-radius: 6px;
+    padding: 3px 6px;
+    margin-bottom: 10px;
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content {
+	width: 75%;
+	height: 75vh;
+	background: #eee;
+	padding: 20px;
+	border-radius: 14px;
+	display: flex;
+	flex-direction: column;
+}
+
+.backend {
+    display: none;
+    border: 1px solid #aaa;
+    margin-left: 10px;
+    width: 350px;
+    overflow-y: scroll;
+    padding: 8px;
+    border-radius: 8px;
+    font-family: monospace;
+    height: 75vh;
+}
+
+
+.ans-box {
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    margin: 24px 0px;
+    align-content: space-between;
+}
+
+.question-box {
+    flex: 1;
+    overflow-y: scroll;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+}
+
+.ans-row {
+    display: flex;
+}
+
+.ans {
+    flex: 1;
+    padding: 18px;
+    border:1px solid #ddd;
+    border-radius: 8px;
+    margin: 16px 16px;
+    text-align: left;
+}
+
+.button-container {
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: end;
+    padding: 12px 16px;
+}
+
+.button {
+    padding: 12px;
+    width: 100px;
+    border: none;
+    border-radius: 8px;
+}
+
+.dir {
+    background: #8f8fe0;
+}
+
+#submit {
+    background: rgb(221, 1, 1);
+}

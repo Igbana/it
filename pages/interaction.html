@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/interactions.css">
+    <title>Interaction</title>
+</head>
+<body>
+    <div class="content">
+        <h1 id="header">Interactions</h1>
+        <button id = "button" onclick="interactions()">Run interactions</button>
+    </div>
+    
+    <script>
+        // Putting everything inside a functionso I can re-run them
+        function interactions(){
+            // Alert function
+            alert("Hello");
+        
+            // Confirm function
+            let result = false;
+            while (!result){
+                result = confirm("I'm the boss around here");
+                result ? alert("Good! Now let that sink in") : alert("How dare you! I'll give you another try");
+            }
+
+            // Prompt function
+            let age = prompt('How old are you?', 100);
+            age >= 18 ? alert(`You are ${age}! You're an adult now!`): alert(`You are ${age}...  You're still young bruh...`);
+        }
+    </script>
+</body>
+</html>

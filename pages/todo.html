@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/todo.css">
+    <title>Todo List</title>
+</head>
+<body>
+    <!-- HELP!!
+    - Fix width problem with text field 
+    -->
+    <h1 id="header">Todo App</h1>
+    <div class="row">
+        <div class="content">
+            <div class="top"><button id="view" onclick="showBackend()">View</button></div>
+            <div class="todo-list" id="todo-list"></div>
+            <div class="add-todo">
+                <form action="#" id="form" onsubmit="addTodo()">
+                    <input type="text" name="todoText" id="todo-label" placeholder="Add new todo">
+                    <button type="submit" id="submit-button">Add</button>
+                </form>
+            </div>
+        </div>
+        <div class="backend" id="backend">
+        </div>
+    </div>
+    <script src="/scripts/todo.js"></script>
+</body>
+</html>

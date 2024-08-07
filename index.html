@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<!--
+TODO...
+* Add mocha codes to portfolio
+* Create a todo list app and store it as json (temporarily, showing the raw data on frontend too)
+- Implement delete function
+* Add polyfills and transpilers code
+* Interactionnsssss....all them prompt, confirms and alerts
+- 
+-->
+
+<body>
+	<div class="content">
+		<nav class="nav">
+			
+			<!-- Neumorphism container -->
+			<div class="container">
+				<div class ="logo">
+					<ul>
+						<li>20</li>
+						<li>10</li>
+					</ul>
+					<h1>Ne</h1>
+				</div>
+			</div>
+			
+			<!-- Navbar items -->
+			<div class="nav-items">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Portfolio</a></li>
+					<li><a href="#">About me</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
+		</nav>
+		
+		<!-- Intro card -->
+		<div class="intro-area">
+			<div class="intro-card">
+				<div class="text">
+					<h2>Hey 👋 </h2>
+					<div class="anim">I'm <span id="writer"></span><span id="blinker"></span></div>
+				</div>
+				<!-- Display picture -->
+				<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+					<defs>
+						<clipPath id="shape">
+							<path d="M47.8,-17.7C54.9,6.2,48.6,32.3,32.5,43.8C16.4,55.2,-9.5,52.1,-29.7,38.1C-49.9,24.1,-64.2,-0.7,-58.3,-23C-52.4,-45.4,-26.2,-65.2,-2.9,-64.2C20.4,-63.3,40.7,-41.6,47.8,-17.7Z" transform="translate(100 100)" />
+						</clipPath>
+					</defs>
+					<image width = "210" height =210 clip-path = "url(#shape)" xlink:href = "assets/dp.png"></image>
+				</svg>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Scrpits -->
+	<script src="main.js"></script>
+</body>
+</html>
